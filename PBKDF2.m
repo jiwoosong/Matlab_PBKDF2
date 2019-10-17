@@ -13,6 +13,6 @@ function hash =  PBKDF2(hash_method, password, salt, iteration, dklen)
 %   Iteration and dklen are any numbers, their types changed into integer 
 %   automatically.
 
-hash= string(py.hashlib.pbkdf2_hmac('sha1',py.bytes(password,'latin-1'),py.bytes(salt,'latin-1'),int16(iteration), int16(dklen)).hex());
+hash= string(py.hashlib.pbkdf2_hmac(hash_method,py.bytes(password,'latin-1'),py.bytes(salt,'latin-1'),int16(iteration), int16(dklen)).hex());
 
 end
