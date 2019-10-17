@@ -1,4 +1,4 @@
-# PBKDF2
+# PBKDF2 (Matlab)
 ## Usage
 Implemented by matlab function type. You can use this function shown below.
 ```Matlab
