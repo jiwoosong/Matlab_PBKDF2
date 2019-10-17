@@ -1,5 +1,5 @@
 function hash =  PBKDF2(hash_method, password, salt, iteration, dklen)
-%    PBKDF2 transforms the password into a hash
+%   PBKDF2 transforms the password into a hash
 % 
 %   hash = PBKDF2(hash_method, password, salt, iteration, dklen) returns a 
 %   PBKDF2 hash. It requires builtin Python 2 or 3. 
