@@ -1,6 +1,7 @@
 # PBKDF2 (Matlab)
 ## Usage
 Implemented by matlab function type. You can use this function shown below.
+The function is based on Python hashlib library.
 ```Matlab
 password = 'Hello';
 salt = '8ac17f62df3841997c4b70da314264e5';
